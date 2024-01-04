@@ -1,0 +1,64 @@
+.profile {
+    background-color: #12002b;
+}
+
+.profile .ul-accounts {
+    width: 80%;
+    row-gap: 32px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
+.ul-accounts li {
+    display: flex;    
+    position: relative;
+    flex-direction: column;
+    background-color: white;
+    color: #2c3e50;
+    padding: 24px;
+}
+
+.ul-accounts h3 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.ul-accounts .amount {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ul-accounts button {
+    border: #00bc77 2px solid;
+    border-right: #0a7850 2px solid;
+    border-bottom: #0a7850 2px solid;
+
+    background-color: #00bc77;
+    color: white;
+    padding: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    position: absolute;
+    right: 24px;
+    top: 45%;
+}
+
+.ul-accounts button:hover {
+    border: #00bc77 2px solid;
+    border-top: #0a7850 2px solid;
+    border-left: #0a7850 2px solid;
+    opacity: .9;
+}
+
+@media screen and (max-width: 768px) {
+    .ul-accounts button {
+        position: initial;
+        margin: 40px auto 0;
+    }
+}

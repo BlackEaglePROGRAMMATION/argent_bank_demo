@@ -1,0 +1,80 @@
+.editor {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 32px;
+}
+
+.editor h2 {
+    row-gap: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    
+    padding: 22px 0;    
+    margin: 0 auto;
+}
+
+.editor h2 input {
+    width: 200px;
+    height: 30px;
+    
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    
+    text-align: center;
+    padding: 0 5px;
+}
+
+.editor .container {
+    display: flex;
+    column-gap: 22px;
+    margin: 0 auto;
+}
+
+.editor .btn-open,
+.editor .btn-edit,
+.editor .btn-close {
+    background-color: #00bc77; 
+    border: #00bc77 2px solid;
+    
+    border-right: #0a7850 2px solid;
+    border-bottom: #0a7850 2px solid;
+    
+    font-weight: bold;
+    color: white;
+    padding: 10px;   
+}
+
+.editor .btn-open:hover,
+.editor .btn-edit:hover,
+.editor .btn-close:hover {
+    border: #00bc77 2px solid;
+    border-top: #0a7850 2px solid;
+    border-left: #0a7850 2px solid;    
+    opacity: .9;    
+}
+
+.editor .btn-open {
+    margin: 0 auto;    
+}
+
+.editor .btn-close {
+    border: #bc3500 2px solid;
+    border-right: #650606 2px solid;
+    border-bottom: #650606 2px solid;
+    
+    background-color: #bc0000; 
+    color: white;
+
+    padding: 10px;   
+}
+
+.editor .btn-close:hover {
+    border: #bc0000 2px solid;
+    border-top: #650606 2px solid;
+    border-left: #650606 2px solid;   
+}

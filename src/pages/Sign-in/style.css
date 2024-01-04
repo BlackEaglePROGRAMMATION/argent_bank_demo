@@ -1,0 +1,83 @@
+.sign-in {
+    min-height: 85vh;
+    padding-top: 3rem;
+    background-color: #12002b;
+}
+
+.sign-in form {
+    width: 300px;
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.sign-in form h2 {
+    display: flex;
+    row-gap: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-in form .champ {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.sign-in .champ label {
+    color: #2c3e50;
+    
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+.sign-in .champ input {
+    font-size: 1.2rem;        
+    padding: 5px;
+}
+
+.sign-in .champ .fa-eye-slash,
+.sign-in .champ .fa-eye {
+    cursor: pointer;
+    position: absolute;
+    bottom: 9px;
+    right: 12px;
+}
+
+.sign-in .champ .fa-eye {
+    right: 13px;
+}
+
+.sign-in .champ .fas:hover {
+    opacity: .7;
+}
+
+.sign-in .remember-input {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.sign-in .remember-input label {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    margin-left: 8px;
+    color: #2c3e50;
+}
+
+.sign-in form button {
+    background-color: #00bc77;
+    padding: 8px;
+    color: white;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.sign-in form button:hover {
+    text-decoration: underline;
+}

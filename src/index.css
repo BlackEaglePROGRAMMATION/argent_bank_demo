@@ -1,0 +1,35 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3,
+h4, h5, h6,
+a, button, li p, span {    
+    font-family: "Avenir", sans-serif;
+}
